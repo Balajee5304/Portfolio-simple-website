@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+
+    padding: 50px;
+}
+
+.Section-one {
+    background-color: black;
+    color: beige;
+    padding: 20px;
+}
+
+.Section-one__contact {
+    background-color: rgb(207, 22, 22);
+    color: burlywood;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.Section-one__Name {
+    font-size: 60px;
+}
+
+.Section-one__role {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.Section-two,
+.Section-three,
+.Section-four,
+.Section-five {
+    margin-top: 20px;
+}
+
+.Section-two__desc,
+.Section-three__desc,
+.Section-four__desc,
+.Section-five__desc {
+    margin-top: 20px;
+}
+
+.Section-five {
+    background-color: black;
+    color: beige;
+    padding: 10px;
+}
+
+.Section-five__title a {
+    color: burlywood;
+
+}
+
+.Section-three li,
+.Section-four li {
+    list-style: none;
+}
+
+.Section-three {
+    background-color: plum;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    height: 200px;
+    vertical-align: top
+}
+
+.Section-four {
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form__name,
+.contact-form__number,
+.contact-form__mail id,
+.contact-form__submit {
+    margin: 20px;
+
+}
+
+.contact-form__name {
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+
+.contact-form__mail {
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+
+.contact-form__number {
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+
+}
+
+.contact-form__submit{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-right: 20px;
+    background-color: orangered;
+    color: black;
+    border: none;
+}
